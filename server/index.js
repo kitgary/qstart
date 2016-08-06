@@ -27,6 +27,10 @@ app.use(function(req, res, next) {
 
 });
 
+app.get('/user', function(req, res) {
+    res.send('Got a Get request at /user');
+});
+
 app.listen(app.get('port'), function() {
     console.log('app running on port', app.get('port'));
 });
