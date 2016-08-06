@@ -28,7 +28,7 @@ gulp.task("index", function(){
 });
 /* copy node server to build folder */
 gulp.task("server", function () {
-    return gulp.src(["index.js", "package.json"], { cwd: "server/**" })
+    return gulp.src(["server.js", "package.json"], { cwd: "server/**" })
         .pipe(gulp.dest("build"));
 });
 /* styles and other assets */
