@@ -1,0 +1,45 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'start' ]
+2 info using npm@3.9.5
+3 info using node@v4.4.5
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle angular2-quickstart@1.0.0~prestart: angular2-quickstart@1.0.0
+6 silly lifecycle angular2-quickstart@1.0.0~prestart: no script for prestart, continuing
+7 info lifecycle angular2-quickstart@1.0.0~start: angular2-quickstart@1.0.0
+8 verbose lifecycle angular2-quickstart@1.0.0~start: unsafe-perm in lifecycle true
+9 verbose lifecycle angular2-quickstart@1.0.0~start: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/Gary/Desktop/OnlineCourses/PluralsightCourses/Play-by-Play/Deploy_Angular2_App_to_Azure/qstart/node_modules/.bin:/usr/local/bin:/Users/Gary/.rbenv/shims:/Users/Gary/.cargo/bin:/usr/local/mongodb/bin:/usr/local/octave/3.8.0/bin:/Applications/MATLAB_R2016a.app/bin:/Users/Shared/activator-dist-1.3.6:/Users/Shared/scala-2.11.7/bin:/usr/local/heroku/bin:/Users/Gary/GoWorkspace/bin:/opt/local/bin:/opt/local/sbin:/Developer/NVIDIA/CUDA-5.5/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/usr/local/heroku/bin:/Users/Gary/GoWorkspace/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/sw/bin:/sw/sbin:/Developer/NVIDIA/CUDA-5.5/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/go/bin:/usr/local/mysql/bin:/Users/Shared/SDKs/android-sdk-mac_86/tools:/Users/Shared/SDKs/android-sdk-mac_86/platform-tools:/Users/Shared/SDKs/android-ndk-r7b
+10 verbose lifecycle angular2-quickstart@1.0.0~start: CWD: /Users/Gary/Desktop/OnlineCourses/PluralsightCourses/Play-by-Play/Deploy_Angular2_App_to_Azure/qstart
+11 silly lifecycle angular2-quickstart@1.0.0~start: Args: [ '-c', 'tsc && concurrently "tsc -w" "lite-server" ' ]
+12 silly lifecycle angular2-quickstart@1.0.0~start: Returned: code: 2  signal: null
+13 info lifecycle angular2-quickstart@1.0.0~start: Failed to exec start script
+14 verbose stack Error: angular2-quickstart@1.0.0 start: `tsc && concurrently "tsc -w" "lite-server" `
+14 verbose stack Exit status 2
+14 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:245:16)
+14 verbose stack     at emitTwo (events.js:87:13)
+14 verbose stack     at EventEmitter.emit (events.js:172:7)
+14 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+14 verbose stack     at emitTwo (events.js:87:13)
+14 verbose stack     at ChildProcess.emit (events.js:172:7)
+14 verbose stack     at maybeClose (internal/child_process.js:827:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+15 verbose pkgid angular2-quickstart@1.0.0
+16 verbose cwd /Users/Gary/Desktop/OnlineCourses/PluralsightCourses/Play-by-Play/Deploy_Angular2_App_to_Azure/qstart
+17 error Darwin 15.5.0
+18 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "start"
+19 error node v4.4.5
+20 error npm  v3.9.5
+21 error code ELIFECYCLE
+22 error angular2-quickstart@1.0.0 start: `tsc && concurrently "tsc -w" "lite-server" `
+22 error Exit status 2
+23 error Failed at the angular2-quickstart@1.0.0 start script 'tsc && concurrently "tsc -w" "lite-server" '.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the angular2-quickstart package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     tsc && concurrently "tsc -w" "lite-server"
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs angular2-quickstart
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls angular2-quickstart
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]

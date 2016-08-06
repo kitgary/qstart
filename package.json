@@ -47,7 +47,6 @@
     "lite-server": "^2.2.0",
     "typescript": "^1.8.10",
     "typings": "^1.0.4",
-
     "canonical-path": "0.0.2",
     "http-server": "^0.9.0",
     "tslint": "^3.7.4",
@@ -59,7 +58,10 @@
     "karma-htmlfile-reporter": "^0.2.2",
     "karma-jasmine": "^0.3.8",
     "protractor": "^3.3.0",
-    "rimraf": "^2.5.2"
+    "rimraf": "^2.5.2",
+    "gulp": "3.9.1",
+    "gulp-sourcemaps": "2.0.0-alpha",
+    "del": "2.2.1"
   },
   "repository": {}
 }
