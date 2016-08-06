@@ -7,8 +7,6 @@ var staticRoot = __dirname + '/';
 
 app.set('port', (process.env.PORT || 3000));
 
-app.use(express.static(staticRoot));
-
 app.use(function(req, res, next) {
 
     // if the request is not html then move along
@@ -34,6 +32,8 @@ app.get('/port', function(req, res) {
 app.get('/user', function(req, res) {
     res.send('Got a Get request at /user');
 });
+
+app.use(express.static(staticRoot));
 
 app.listen(app.get('port'), function() {
     console.log('app running on port', app.get('port'));
